@@ -1,4 +1,4 @@
-<p align="center"><a href="/" target="_blank"><img src="https://drive.google.com/drive-viewer/AKGpihY_L8Bc4j-uRu8NsjbcWx_X6ccAHVzJew5ac13wUcdtF2TkpfAoVWGDcuyPS0wjB8Oa8FNGa25w72j_dsNCPMOODZzuV9kkd2g=w3430-h7616-rw-v1" width="400"></a></p>
+<p align="center"><a href="/" target="_blank"><img src="https://drive.google.com/file/d/1w6QuXWY7-eC9Yi2FzdFnhcxfZt0JaqRS/view?usp=drive_link" width="400"></a></p>
 
 # **CitaXpress**  
 **CitaXpress** es una innovadora aplicación médica que optimiza y simplifica el proceso de agendamiento y gestión de citas médicas. Desarrollada por **Ricardo Estrella**, un apasionado desarrollador fullstack, la aplicación utiliza tecnologías modernas como **Next.js 15** y **TypeScript** para garantizar un rendimiento robusto, un código escalable y una experiencia de usuario fluida.
