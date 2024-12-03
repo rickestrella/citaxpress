@@ -1,0 +1,47 @@
+.notification {
+  position: relative;
+  display: inline-block;
+  max-width: 300px;
+  padding: 10px 20px;
+  border-radius: 0.25rem;
+  background-color: #141619;
+  color: #f6f5f9;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+  transform: translateY(30px);
+  opacity: 0;
+  visibility: hidden;
+  animation: fade 4000ms linear forwards;
+}
+
+.progress {
+  position: absolute;
+  left: 5px;
+  bottom: 5px;
+  width: 0;
+  height: 3px;
+  background: linear-gradient(to right, #529bdb, #3250bf);
+  border-radius: 0.25rem;
+  animation: progress 3100ms 250ms linear forwards;
+}
+
+@keyframes fade {
+  5% {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+  }
+  90% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes progress {
+  to {
+    width: calc(100% - 10px);
+  }
+}
